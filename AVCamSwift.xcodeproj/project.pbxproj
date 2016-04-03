@@ -12,6 +12,7 @@
 		F60EB0361CB081F900E9168A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60EB0341CB081F900E9168A /* Main.storyboard */; };
 		F60EB0381CB081F900E9168A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60EB0371CB081F900E9168A /* Assets.xcassets */; };
 		F60EB03B1CB081F900E9168A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60EB0391CB081F900E9168A /* LaunchScreen.storyboard */; };
+		F60EB0431CB0833400E9168A /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60EB0421CB0833400E9168A /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F60EB0371CB081F900E9168A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60EB03A1CB081F900E9168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60EB03C1CB081F900E9168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60EB0421CB0833400E9168A /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				F60EB0301CB081F900E9168A /* AppDelegate.swift */,
+				F60EB0421CB0833400E9168A /* PreviewView.swift */,
 				F60EB0321CB081F900E9168A /* ViewController.swift */,
 				F60EB0341CB081F900E9168A /* Main.storyboard */,
 				F60EB0371CB081F900E9168A /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			files = (
 				F60EB0331CB081F900E9168A /* ViewController.swift in Sources */,
 				F60EB0311CB081F900E9168A /* AppDelegate.swift in Sources */,
+				F60EB0431CB0833400E9168A /* PreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +257,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVCamSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chuckmoji.AVCamSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVCamSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chuckmoji.AVCamSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
